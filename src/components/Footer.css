@@ -1,0 +1,17 @@
+.footer{
+    background-color: #131619;
+    height : 200px;
+    width : 100%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons svg{
+    font-size: 50px;
+    margin : 20px;
+    cursor : pointer;
+    color : white;
+}

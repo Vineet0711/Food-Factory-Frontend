@@ -1,0 +1,48 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    width: 98vw;
+    margin:10vh 0;
+}
+.contact>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 8px gray;
+    background-color:wheat;
+    border-radius: 5px;
+}
+.contact>form>div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin:5px 0;
+}
+.contact>form>div>p{
+    text-align:end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact>form>textarea{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px 0;
+    padding :5px;
+}
+.contact>form>p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:10px;
+}
+input{
+    padding:2px;
+    background-color: rgb(236, 222, 194); 
+}
+button{
+    font-size: large;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(95, 95, 153);
+}
+textarea{
+    background-color: rgb(236, 222, 194);
+}

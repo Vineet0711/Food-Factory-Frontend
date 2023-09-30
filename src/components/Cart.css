@@ -1,0 +1,131 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    border-bottom : 2px dotted gainsboro;
+    padding : 10px;
+}
+
+.pcart{
+    width : 27%;
+    -ms-overflow-style: none;
+}
+.pcart ::-webkit-scrollbar{
+    display: none;
+}
+
+.cartplace{
+    position:sticky;
+    height : 350px;
+    top : 42%; 
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    overflow: scroll;
+    
+}
+.cartbuttons{
+    display: flex;
+    border-top : 2px solid grey;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+    
+
+}
+
+.minimage{
+    height : 50px;
+    width : 50px;
+    border : 1px solid gray;
+}
+
+.cart1{
+    display: flex;
+    justify-content: flex;
+    
+}
+.cart1-inner{
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color:rgb(66, 64, 64);
+    padding-left: 20px;
+}
+
+.cart1-inner p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.cart2{
+    display: flex;
+    justify-content: space-between;
+    padding : 10px 0px;
+    color : rgb(70, 70, 70);
+    font-weight: 500;
+}
+
+.cart-ton{
+    width : 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-right: 2px solid grey;
+}
+.cart-ton:hover{
+    cursor: pointer;
+}
+.price{
+    color :rgb(56, 56, 56);
+    font-weight :900;
+    font-size : 19px;
+}
+.checkout{
+    position: sticky;
+    width : 100%;
+    top : 90%;
+    height : 50px;
+    background-color:rgb(223, 223, 223);
+    color : white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.inner-checkout{
+    display: flex;
+    justify-content: space-between; 
+    color :#303030;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.inner2-checkout{
+    justify-content:start;
+    text-align: center;
+    background-color: rgb(198,82,82);
+    font-size: 20px;
+}
+.inner2-checkout:hover{
+    cursor: pointer;
+}
+.empty-cart img{
+    position: relative;
+    right : 0;
+
+}
+.shit{
+    display: flex;
+    justify-content: flex-end;
+}
+.empty-cart p{
+    color : rgb(155, 153, 153);
+    font-weight : 300;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#firsttext{
+    font-size : 21px;
+    font-weight: bolder;
+    margin-top : 20px;
+}

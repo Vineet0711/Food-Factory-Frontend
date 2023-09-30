@@ -1,0 +1,47 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+.orderAdd{
+    position: absolute;
+    display: flex;
+    width:100vw;
+    justify-content: center;
+    z-index: 1;
+}
+.orderAdd>div{
+    padding:20px;
+    background-color:wheat;
+}
+.orderAdd>div>form>div>input{
+    background-color: rgb(236, 222, 194);
+}
+.orderAdd>div>form>div{
+    margin:7px auto;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.orderAdd>div>form>button{
+    color: rgb(58, 145, 221);
+    margin-top: 10px;
+}
+.orderAdd>div>form>button:hover{ 
+    cursor: pointer;
+}
+.orderAdd>div>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.orderAdd>div>form>h3{
+    margin:25px auto;
+}
+.orderAdd>div>form>p{
+    align-self: flex-end;
+    font-size: 20px;
+    color: red;
+}
+.orderAdd>div>form>p:hover{
+    cursor: pointer;
+}

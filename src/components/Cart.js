@@ -120,18 +120,14 @@ export default function Cart({cart,setCart,ad ,setAd, sub, setSub,category,order
     let count = 0;
     let total = 0;
 
-    useEffect(()=>{
-        if(ordered){
-            sendData();
-        }
-    },[ordered])
+
 
     const getAdd=()=>{
         setIsOrder(true)
     }
     
     const sendData=async()=>{
-        if(finalcart.length>0){
+        if(finalcart.length>0&&ordered){
             const data={
                 fName:userData.fName,
                 lName:userData.lName,
@@ -163,6 +159,10 @@ export default function Cart({cart,setCart,ad ,setAd, sub, setSub,category,order
             }
         }
     }
+    useEffect(()=>{
+            sendData();
+        
+    })
 
     return (
         <div className="pcart">
